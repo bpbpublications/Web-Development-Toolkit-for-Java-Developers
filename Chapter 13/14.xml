@@ -1,0 +1,18 @@
+	<beans>
+	<bean id="parent" abstract="true" class="utils.CollectionsExample">
+	    <property name="adminEmails">
+	        <props>
+	            <prop key="administrator">admin@company.com</prop>
+	            <prop key="helpdesk">@helpdesk@company.com</prop>
+	        </props>
+	    </property>
+	</bean>
+	<bean id="child" parent="parent">
+	    <property name="adminEmails">
+	            <props merge="true">
+	            <prop key="sales">sales@company.com</prop>
+	            <prop key="helpdesk">support@company.co.in</prop>
+	        </props>
+	    </property>
+	</bean>
+	<beans>

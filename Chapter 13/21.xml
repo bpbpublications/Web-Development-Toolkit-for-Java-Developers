@@ -1,0 +1,1 @@
+<bean  id="userPreferences"  class="com.mybean.UserPreferences"  scope="globalSession"/>

@@ -1,0 +1,5 @@
+<bean id="accountService" class="com.mypackage.DefaultAccountService"/>
+<bean id="accountService" class="com.mypackage.DefaultAccountService" scope="singleton"/>
+<bean id="accountService" class="com.mypackage.DefaultAccountService" singleton="true"/>
+
+  

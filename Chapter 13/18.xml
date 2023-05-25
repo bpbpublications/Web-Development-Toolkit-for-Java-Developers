@@ -1,0 +1,2 @@
+<bean id="accountService" class="com.mypackage.DefaultAccountService" scope="prototype"/>
+<bean id="accountService" class="com.mypackage.DefaultAccountService" singleton="false"/>

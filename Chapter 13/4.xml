@@ -1,0 +1,8 @@
+<!-- the factory bean, which contains a method called createInstance() -->
+<bean id="myFactoryBean" class="...">
+  ...
+</bean>
+<!-- the bean to be created via the factory bean -->
+<bean id="exampleBean"
+      factory-bean="myFactoryBean"
+      factory-method="createInstance"/>

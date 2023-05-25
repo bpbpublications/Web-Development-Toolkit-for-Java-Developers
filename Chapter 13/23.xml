@@ -1,0 +1,8 @@
+<bean id="inheritedTestBean" abstract="true"    class="org.springframework.beans.TestBean">
+  <property name="name" value="parent"/>
+  <property name="age" value="50"/>
+</bean>
+<bean id="inheritsWithDifferentClass"    class="org.springframework.beans.DerivedTestBean"
+      parent="inheritedTestBean" init-method="initialize">
+   <property name="name" value="override"/>
+ </bean>

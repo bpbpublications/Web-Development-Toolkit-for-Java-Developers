@@ -1,0 +1,12 @@
+<bean  id="emailer"  class="example.EmailBean">
+    <property  name="blackList">
+        <list>
+            <value>black@list.org</value>
+            <value>white@list.org</value>
+            <value>john@doe.org</value>
+        </list>
+    </property>
+</bean>
+<bean  id="blackListListener"  class="example.BlackListNotifier">
+    <property  name="notificationAddress"  value="spam@list.org"/>
+</bean>

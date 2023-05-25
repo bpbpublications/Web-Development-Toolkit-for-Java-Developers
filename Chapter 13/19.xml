@@ -1,0 +1,1 @@
+<bean  id="loginAction"  class="com.mybean.LoginAction"  scope="request"/>

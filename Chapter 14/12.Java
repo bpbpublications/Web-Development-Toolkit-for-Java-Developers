@@ -1,0 +1,18 @@
+<dependency>  
+<groupId>org.apache.tomcat.embed</groupId>  
+<artifactId>tomcat-embed-core</artifactId>  
+<version>8.5.23</version>  
+ <scope>compile</scope>  
+</dependency>  
+<dependency>  
+<groupId>org.apache.tomcat.embed</groupId>  
+<artifactId>tomcat-embed-el</artifactId>  
+<version>8.5.23</version>  
+<scope>compile</scope>  
+</dependency>  
+<dependency>  
+<groupId>org.apache.tomcat.embed</groupId>  
+<artifactId>tomcat-embed-websocket</artifactId>  
+<version>8.5.23</version>  
+<scope>compile</scope>  
+</dependency>  
